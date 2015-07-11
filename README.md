@@ -3,11 +3,11 @@
         @heinzarelli
 		v0.1 -- July 2015
 
-# [About]
+## [About]
 
 DL-Exec is a simple script that leverages user-supplied parameters to download and execute a PowerShell script with arguments on a remote host. This script can even run without touching disk via the memoryExec parameter, or if run-time parameters are required, the script can be downloaded and executed on the host directly.
 
-# [How To]
+## [How To]
 
     Execute a PowerShell script on a remote host in-memory:
         
@@ -17,27 +17,24 @@ DL-Exec is a simple script that leverages user-supplied parameters to download a
 
         PS C:\> dl-exec.ps1 -source http://some.site/honeyports.ps1 -target 10.10.10.10 -fileExec -arguments "-Ports 21,22"
 
-# [Use Cases]
+## [Use Cases]
 
-Offensive
+#####Offensive
 
-    Execute various tools from frameworks like PowerSploit, Nishang, etc. on a remote host during penetration testing engagements.
-
+Execute various tools from frameworks like PowerSploit, Nishang, etc. on a remote host during penetration testing engagements.
 ![Mimikatz](/images/remote-mem-dl-exec.png)
 
-Defensive
+#####Defensive
 
-    Execute various tools from frameworks like Kansa, Honeyports, etc. on a remote host during Active Defense and/or Incident Response scenarios.
-
+Execute various tools from frameworks like Kansa, Honeyports, etc. on a remote host during Active Defense and/or Incident Response scenarios.
 ![Honeyports](/images/honeyport-fileexec.png)
 
-Other
-    
-    No matter the script, it's possible to chain additional commands depending on the goal...
+#####Other
 
+No matter the script, it's possible to chain additional commands depending on the goal...
 ![Chaining](/images/command-chaining.png)
 
-# [Parameter Breakdown]
+## [Parameter Breakdown]
 
     Script Source:
 
@@ -59,7 +56,7 @@ Other
         If neither parameter is supplied, you will be prompted for credentials
         (FYI -- It's a bad idea to supply credentials at the command line, but there are times when it may be required)
 
-# [License]
+## [License]
 
 Copyright (c) 2015, Greg Foss
 All rights reserved.
