@@ -23,19 +23,19 @@ Offensive
 
     Execute various tools from frameworks like PowerSploit, Nishang, etc. on a remote host during penetration testing engagements.
 
-    ![Mimikatz](/images/remote-mem-dl-exec.png)
+![Mimikatz](/images/remote-mem-dl-exec.png)
 
 Defensive
 
     Execute various tools from frameworks like Kansa, Honeyports, etc. on a remote host during Active Defense and/or Incident Response scenarios.
 
-    ![Honeyports](/images/honeyport-fileexec.png)
+![Honeyports](/images/honeyport-fileexec.png)
 
 Other
     
     No matter the script, it's possible to chain additional commands depending on the goal...
 
-    ![Chaining](/images/command-chaining.png)
+![Chaining](/images/command-chaining.png)
 
 # [Parameter Breakdown]
 
