@@ -36,9 +36,10 @@ No matter the script, it's possible to chain additional commands depending on th
 
 ## [Parameter Breakdown]
 
-    Script Source:
+    Script Source and Target Host:
 
         -source     :   Define the script source
+        -target     :   Define the remote host
 
     Execution Parameters:
 
@@ -46,9 +47,8 @@ No matter the script, it's possible to chain additional commands depending on th
         -fileExec   :   Download a script and execute it from the host (leaves more traces)
         -arguments  :   Define the command-line arguments/switches/commands to be passed
                         (depending on how the script is executed)
-        -target     :   Determine the remote host to extract data from
 
-    Credentials - Required for remote execution and interaction with Active Directory
+    Credentials:
 
         -username   :   Administrative Username
         -password   :   Administrative Password
